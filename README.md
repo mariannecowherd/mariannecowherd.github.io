@@ -1,1 +1,1 @@
-# mariannecowherd-github.io
+# mariannecowherd.github.io
