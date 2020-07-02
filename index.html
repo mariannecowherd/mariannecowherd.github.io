@@ -2,21 +2,51 @@
 layout: default
 title: Marianne Cowherd
 ---
-<div class="blurb">
-	<head> <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<html>
+<head> <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+</style>
 </head>
-	<h1>Marianne Cowherd</h1>
-	<p> <img src="/images/metree.jpg" align = "left" width="300" height = "400" alt="tree"/>
-	I am a first-year graduate student in the UC Berkeley <a href="https://ourenvironment.berkeley.edu/">Environmental Science,
-		Policy, and Management Department</a>, where I study fires and hydrology.
-		I graduated from Stanford University in
-		2019 with a B.S. in Environmental Systems Engineering and an M.S. in
-		Environmental Engineering.</p>
-	<p> At Stanford, I was advised by <a href="https://web.stanford.edu/~fringer/">Oliver Fringer</a> and <a href="https://profiles.stanford.edu/stephen-monismith">Stephen Monismith</a> in the
-		<a href="https://cee.stanford.edu/research/labs-centers/bob-and-norma-street-environmental-fluid-mechanics-laboratory"> Bob & Norma Street Environmental Fluid Mechanics Laboratory</a>, where I worked
-		on oscillatory wave-current boundary layers.</p>
-	<p> I enjoy running, backpacking, and making science-themed crosswords. I'm
-		also big on outreach and teaching, which I do at <a href="https://jrbp.stanford.edu/"> Jasper Ridge
-		Biological Preserve</a>, <a href="http://outercoast.org/">Outer Coast</a>, and <a href="https://www.mircore.org/">miRcore</a>.
-</div><!-- /.blurb -->
+<body>
+<h1>Marianne Cowherd</h1>
+<div class="row">
+  <div class="column">
+		<img src="/images/metree.jpg" align = "left" width="300" height = "400" alt="tree"/>
+	</div>
+  <div class="column">
+		<p>
+		I am a first-year graduate student in the UC Berkeley <a href="https://ourenvironment.berkeley.edu/">Environmental Science,
+			Policy, and Management Department</a>, where I study fires and hydrology.
+			I graduated from Stanford University in
+			2019 with a B.S. in Environmental Systems Engineering and an M.S. in
+			Environmental Engineering.</p>
+		<p> At Stanford, I was advised by <a href="https://web.stanford.edu/~fringer/">Oliver Fringer</a> and <a href="https://profiles.stanford.edu/stephen-monismith">Stephen Monismith</a> in the
+			<a href="https://cee.stanford.edu/research/labs-centers/bob-and-norma-street-environmental-fluid-mechanics-laboratory"> Bob & Norma Street Environmental Fluid Mechanics Laboratory</a>, where I worked
+			on oscillatory wave-current boundary layers.</p>
+		<p> I enjoy running, backpacking, and making science-themed crosswords. I'm
+			also big on outreach and teaching, which I do at <a href="https://jrbp.stanford.edu/"> Jasper Ridge
+			Biological Preserve</a>, <a href="http://outercoast.org/">Outer Coast</a>, and <a href="https://www.mircore.org/">miRcore</a>.
+
+	</div>
+</div>
+</body>
+</html>
