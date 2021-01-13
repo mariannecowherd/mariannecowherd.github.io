@@ -16,15 +16,17 @@ title: Marianne Cowherd
 /* Create two equal columns that floats next to each other */
 .column {
 	float: left;
-	width: 40%;
 	padding: 10px;
+	column-gap: 40px;
 }
 
-.column2 {
-	float: left;
-	width: 60%;
-	padding: 10px
-	}
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
 
 /* Clear floats after the columns */
 .row:after {
