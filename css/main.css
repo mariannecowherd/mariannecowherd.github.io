@@ -2,6 +2,40 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+	.icon {
+		text-decoration: none;
+		position: relative;
+		text-decoration: none;
+	}
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		.icon:before {
+			line-height: inherit;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
