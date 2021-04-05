@@ -49,7 +49,6 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline-block;
-    margin-right: 20px;
 padding: 10px;
 font-size: 1.4em;
 }
