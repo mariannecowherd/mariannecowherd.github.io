@@ -71,8 +71,14 @@ p {
     color: #333;
 }
 footer {
+	margin: 60px auto;
+    width: 70%;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+nav{
+margin: 60px auto;
+    width: 70%;
 }
 
 ul.posts {
