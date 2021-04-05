@@ -50,7 +50,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline-block;
 padding: 10px;
-font-size: 1.4em;
 }
 a {
     text-decoration: none;
