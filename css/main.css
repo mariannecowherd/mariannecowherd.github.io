@@ -48,9 +48,9 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
-padding: 4px;
+padding: 10px;
 font-size: 1.4em;
 }
 a {
