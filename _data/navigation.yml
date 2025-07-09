@@ -22,6 +22,9 @@ main:
     url: /news/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+    
+  - title: "Join"
+    url: /join/
 
     
