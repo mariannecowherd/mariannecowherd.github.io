@@ -5,32 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Publications:</h2>
+Complete list available on <a href="https://scholar.google.com/citations?user=RN_5PCcAAAAJ&hl=en&oi=ao">Google Scholar</a> <br> <br>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<b>Cowherd, M.</b>, Mital, U., Rahimi, S., Girotto, M., Schwartz, A., and Feldman, D.
+"Climate change-resilient snowpack estimation in the Western United States." <i> Communications Earth & Environment. </i>  <br>
+<a href = "https://doi.org/10.1038/s43247-024-01496-3">https://doi.org/10.1038/s43247-024-01496-3. </a> <br><br>
+Girotto, M., Formetta G., Azimi, S., Bachand, C., <b>Cowherd, M.</b>, de Lannoy, G., Lievens, H., Modanesi, S., Raleigh, M., Rigon, R., and Massari, C.
+"Identifying snowfall elevation patterns by assimilating satellite-based snow depth retrievals."
+<i>Science of the Total Environment.</i> <br>
+<a href ="https://doi.org/10.1016/j.scitotenv.2023.167312">https://doi.org/10.1016/j.scitotenv.2023.167312</a> <br><br>
+<b>Cowherd, M.</b>   Leung, L. R., and Girotto, M. (2023) Evolution of global snow drought characteristics from 1850 to 2100.
+ <i>Environmental Research Letters. </i>
+ </i> <br> <a href="https://doi.org/10.1088/1748-9326/acd804">doi.org/10.1088/1748-9326/acd804</a> <br><br>
+<b>Cowherd, M.</b>, Egan, G., Monismith, S., & Fringer, O. (2021). Phase‐resolved wave boundary layer dynamics in a shallow estuary. <i> Geophysical Research Letters. </i> <br> <a href="https://doi.org/10.1029/2020GL092251">doi.org/10.1029/2020GL092251</a> <br><br>
+Egan, G., <b>Cowherd, M.,</b> Fringer, O., & Monismith, S. (2019). Observations of near-bed shear stress in a shallow, wave- and current-driven flow. <i>Journal of Geophysical Research: Oceans. </i><a href="https://doi.org/10.1029/2019JC015165"> <br> doi.org/10.1029/2019JC015165</a> <br><br>
+Eduati, et. al., <b>NIEHS-NCATS-UNC DREAM Toxicogenetics Collaboration*</b>. Prediction of human population responses to toxic compounds by a collaborative competition. Nature Biotechnology 33, 933-40 (2015). *Collaborator <br> <a href="https://doi.org/10.1038/nbt.3299"> doi.org/10.1038/nbt.3299</a>  <br><br>
+</div><!-- /.blurb -->
 
 
 
