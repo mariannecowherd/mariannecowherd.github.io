@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
- I am currently a postdoctoral researcher at UC Berkeley. I will be an assistant professor in the Department of Earth Sciences at [Montana State University](https://www.montana.edu/earthsciences/) starting in Fall 2025.
+I am an assistant professor in the Department of Earth Sciences at [Montana State University](https://www.montana.edu/earthsciences/).
 
 I study climate science and the cryosphere. Most of my work deals with nonstationarity in snow and water systems -- both the problems this causes and the potential solutions. Specific topics include the atmospheric drivers of snow dro†ughts, post-fire hydrology, and machine learning applications in snow pattern repeatability shift. I am generally interested in how nonstationarity impacts environmental observations and in particular our ability to understand change.
 
